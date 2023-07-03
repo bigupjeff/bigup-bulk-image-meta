@@ -1,4 +1,4 @@
-# Bigup Web: Plugin Bootstrap
+# Bigup Web: Bulk Image Meta
 
 
 WARNING: This is just code thrown in class-meta-update.php and is not a useable plugin. To be completed.

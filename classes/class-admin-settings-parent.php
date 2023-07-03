@@ -1,5 +1,5 @@
 <?php
-namespace Bigup\Plugin_Bootstrap;
+namespace Bigup\Bulk_Image_Meta;
 
 /**
  * Bigup Custom Fields - Admin Settings Parent.
@@ -8,7 +8,7 @@ namespace Bigup\Plugin_Bootstrap;
  * if not, create it. A hook is created for child pages to add to this parent.
  * This class should be used accross all Bigup plugins and themes.
  *
- * @package bigup_plugin_bootstrap
+ * @package bigup_bulk_image_meta
  * @author Jefferson Real <me@jeffersonreal.uk>
  * @copyright Copyright (c) 2023, Jefferson Real
  * @license GPL3+

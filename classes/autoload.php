@@ -1,6 +1,6 @@
 <?php
 /**
- * Bigup Plugin Bootstrap - Class Autoloader
+ * Bigup Bulk Image Meta - Class Autoloader
  *
  * After registering this autoload function with SPL, the following line would cause the function to
  * attempt to load the '\Brand\Project\Sub_Project\Class' class from
@@ -8,7 +8,7 @@
  *
  * `new \Brand\Project\Sub_Project\Class;`
  *
- * @package bigup_plugin_bootstrap
+ * @package bigup_bulk_image_meta
  * @author Jefferson Real <me@jeffersonreal.uk>
  * @copyright Copyright (c) 2023, Jefferson Real
  * @license GPL3+
@@ -19,7 +19,7 @@
 spl_autoload_register(
 	function( $class ) {
 
-		$namespace       = 'Bigup\\Plugin_Bootstrap\\';
+		$namespace       = 'Bigup\\Bulk_Image_Meta\\';
 		$root_dir        = dirname( dirname( __FILE__ ), 1 );
 		$sub_dir         = str_replace( $root_dir, '', dirname( __FILE__ ) );
 		$filename_prefix = 'class-';
@@ -43,7 +43,7 @@ spl_autoload_register(
 		if ( file_exists( $class_filepath ) ) {
 			include_once $class_filepath;
 		} else {
-			echo '<script>console.log("ERROR: Bigup_WordPress_Plugin_Bootstrap php autoload | Class not found: ' . $classname . '");</script>';
+			echo '<script>console.log("ERROR: Bigup_Bulk_Image_Meta php autoload | Class not found: ' . $classname . '");</script>';
 		}
 	}
 );

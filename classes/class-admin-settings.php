@@ -1,12 +1,12 @@
 <?php
-namespace Bigup\Plugin_Bootstrap;
+namespace Bigup\Bulk_Image_Meta;
 
 /**
- * Bigup Plugin Bootstrap - Admin Settings.
+ * Bigup Bulk Image Meta - Admin Settings.
  *
  * Hook into the WP admin area and add menu options and settings pages.
  *
- * @package bigup_plugin_bootstrap
+ * @package bigup_bulk_image_meta
  * @author Jefferson Real <me@jeffersonreal.uk>
  * @copyright Copyright (c) 2023, Jefferson Real
  * @license GPL3+
@@ -33,13 +33,13 @@ class Admin_Settings {
 	/**
 	 * Settings page menu title to add with add_submenu_page().
 	 */
-	public $admin_label = 'Plugin Bootstrap';
+	public $admin_label = 'Bulk Image Meta';
 
 
 	/**
 	 * Settings page slug to add with add_submenu_page().
 	 */
-	public $page_slug = 'bigup-web-plugin-bootstrap';
+	public $page_slug = 'bigup-web-bulk-image-meta';
 
 
 	/**
@@ -48,7 +48,7 @@ class Admin_Settings {
 	 * To add multiple sections to the same settings page, all settings
 	 * registered for that page MUST BE IN THE SAME 'OPTION GROUP'.
 	 */
-	public $group_name = 'group_bigup-web-plugin-bootstrap_settings';
+	public $group_name = 'group_bigup-web-bulk-image-meta_settings';
 
 
 	/**
@@ -109,7 +109,7 @@ class Admin_Settings {
 
 			<h1>
 				<span class="dashicons-bigup-logo" style="font-size: 2em; margin-right: 0.2em;"></span>
-				Bigup Web Plugin Bootstrap Settings
+				Bigup Web Bulk Image Meta Settings
 			</h1>
 
 			<p>

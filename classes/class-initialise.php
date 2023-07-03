@@ -1,12 +1,12 @@
 <?php
-namespace Bigup\Plugin_Bootstrap;
+namespace Bigup\Bulk_Image_Meta;
 
 /**
- * Bigup Plugin Bootstrap - Initialisation.
+ * Bigup Bulk Image Meta - Initialisation.
  *
  * Setup styles and helper functions for this plugin.
  *
- * @package bigup_plugin_bootstrap
+ * @package bigup_bulk_image_meta
  * @author Jefferson Real <me@jeffersonreal.uk>
  * @copyright Copyright (c) 2023, Jefferson Real
  * @license GPL3+

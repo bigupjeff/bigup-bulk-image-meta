@@ -1,12 +1,12 @@
 <?php
-namespace Bigup\Plugin_Bootstrap;
+namespace Bigup\Bulk_Image_Meta;
 
 /**
- * Bigup Plugin Bootstrap - Utility Functions.
+ * Bigup Bulk Image Meta - Utility Functions.
  *
  * A class of utility functions for use throughout the plugin.
  *
- * @package bigup_plugin_bootstrap
+ * @package bigup_bulk_image_meta
  * @author Jefferson Real <me@jeffersonreal.uk>
  * @copyright Copyright (c) 2023, Jefferson Real
  * @license GPL3+
