@@ -70,8 +70,8 @@ class Admin_Settings_Parent {
 	/**
 	 * Do Action Hook
 	 */
-	public function bigup_below_parent_settings_page_heading() {
-		do_action( 'bigup_below_parent_settings_page_heading' );
+	public function bigup_plugin_settings_dashboard_entry() {
+		do_action( 'bigup_plugin_settings_dashboard_entry' );
 	}
 
 
@@ -87,7 +87,7 @@ class Admin_Settings_Parent {
 				Bigup Web Settings
 			</h1>
 
-			<?php $this->bigup_below_parent_settings_page_heading(); ?>
+			<?php $this->bigup_plugin_settings_dashboard_entry(); ?>
 
 		</div>
 
